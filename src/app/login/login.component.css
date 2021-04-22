@@ -1,0 +1,61 @@
+
+@import "../../styles.css";
+.t1 {
+}
+
+.test2 {
+  height: 100vh;
+  background-color:black;
+  background-image: url("../../assets/images/background.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+
+}
+.label {
+  color: aliceblue;
+}
+.test{
+  position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+background-color:black;
+}
+
+.example {
+  display: flex;
+  justify-content: center;
+}
+.k-form {
+  width: 300px;
+  padding: 2%;
+  background-color:rgba(0, 0, 0, 0.53);
+}
+.login-e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+}
+kendo-label {
+  color: white;
+}
+.title {  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+    font-weight: 700;}
+  .button-login {
+    background-color: #fc5000;
+  }
+  .button-clear {
+    color: black;
+  }
+  .fieldset {
+    width: 500px;
+  }

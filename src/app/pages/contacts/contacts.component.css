@@ -1,0 +1,53 @@
+.c2 {
+
+ 
+
+    
+
+    background-color:  #E9ECEF;
+
+ 
+
+}
+.example-tree-invisible {
+    display: none;
+  }
+  
+  .example-tree ul,
+  .example-tree li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
+.img-1 {
+   
+    background-image: url("../../../assets/images/4.jpg");
+}
+.img-2 {
+    grid-area: img-2;
+    background-image: url("../../../assets/images/h.jfif");
+}
+.img-3 {
+    grid-area: img-3;
+    background-image: url("../../../assets/images/t.jpg");
+}
+.img-4 {
+    grid-area: img-4;
+    background-image: url("../../../assets/images/p.jpg");
+}
+.img-5 {
+    grid-area: img-5;
+    background-image: url("../../../assets/images/d.jfif");
+}
+.img-6 {
+    grid-area: img-6;
+    background-image: url("../../../assets/images/4.jpg");
+}
+.img-7 {
+    grid-area: img-7;
+    background-image: url("../../../assets/images/p.jpg");
+}
+.img-8 {
+    grid-area: img-8;
+    background-image: url("../../../assets/images/t.jpg");
+}

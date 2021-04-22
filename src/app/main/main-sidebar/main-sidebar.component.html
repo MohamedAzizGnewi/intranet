@@ -1,0 +1,64 @@
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color:black ;">
+    <!-- Brand Logo -->
+    <div class="sidebar">
+      <a routerLink="/" class="navbar-brand">
+        <img [src]="cheminImage" class="brand-image">
+      </a>
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+       <div class="image">
+        <img src="assets/admin-lte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+       </div>
+       <div class="info">
+        <a href="#" class="d-block">Alexander Pierce</a>
+       </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      
+      <nav class="nav-side-menu mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <li class="nav-item" >
+            <a routerLink="/"  class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+              <i class="nav-icon fas fa-home icon"></i>
+              <p>
+                Home
+              </p>
+            </a>
+          </li> 
+          <li class="nav-item">
+            <a routerLink="/contacts" class="nav-link a1" routerLinkActive="active">
+              <div class="center">
+                <i class="nav-icon fas fa-user icon"  ></i>
+              <p >Contact</p>
+              </div>
+              
+            </a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target="#products" class="nav-item collapsed active"  >
+            <a routerLink="/home" class="nav-link " routerLinkActive="active" >
+              
+                <i class="nav-icon fas fa-user icon"  ></i>
+                    Contact
+                    <span class="arrow"></span>
+             
+              
+            </a>
+          </li>
+         
+          <ul class="sub-menu collapse" id="products">
+              <li class="active"><a href="#">CSS3 Animation</a></li>
+              <li><a href="#">General</a></li>
+              <li><a href="#">Buttons</a></li>
+             
+          </ul>
+
+         
+      
+          
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
